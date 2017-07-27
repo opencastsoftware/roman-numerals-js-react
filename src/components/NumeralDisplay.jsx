@@ -6,7 +6,7 @@ export default class NumeralDisplay extends React.Component {
     constructor(props) {
         super(props);
         this.shouldComponentUpdate = function(nextProps, nextState) {
-            return false;
+            return this.props.number !== nextProps.number;
         };
     }
     render() {

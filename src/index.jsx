@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import {Provider} from 'react-redux';
 import {compose, createStore} from 'redux';
 
-import * as actiontypes from './actiontypes';
+import * as actions from './actions';
 
 import {AppContainer} from './AppContainer';
 
@@ -15,12 +15,7 @@ const createStoreDevTools = compose(
 
 const store = createStoreDevTools(reducer);
 
-store.dispatch({
-    type: actiontypes.SET_STATE,
-    state: {
-        number: 5
-    }
-})
+store.dispatch(actions.setNumber(5));
 
 ReactDOM.render(
     <Provider store={store}>
