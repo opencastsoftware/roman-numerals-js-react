@@ -9,6 +9,7 @@ export default class ClickMe extends React.Component {
     }
     clickMe() {
         console.log('Hello World');
+        this.props.setNumber(2017);
     }
     render() {
         return <div>

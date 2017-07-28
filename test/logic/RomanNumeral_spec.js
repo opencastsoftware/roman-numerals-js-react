@@ -4,8 +4,8 @@ import RomanNumeral from '../../src/logic/RomanNumeral';
 
 describe('RomanNumeral', () => {
 
-    it('should return V', () => {
-        expect(RomanNumeral()).to.equal('V');
+    it('should return false', () => {
+        expect(RomanNumeral()).to.equal(false);
     })
 
 });

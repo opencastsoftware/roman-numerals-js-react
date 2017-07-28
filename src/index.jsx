@@ -15,7 +15,7 @@ const createStoreDevTools = compose(
 
 const store = createStoreDevTools(reducer);
 
-store.dispatch(actions.setNumber(5));
+store.dispatch(actions.setNumber(1453));
 
 ReactDOM.render(
     <Provider store={store}>
