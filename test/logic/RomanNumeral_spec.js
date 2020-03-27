@@ -1,11 +1,9 @@
 import {expect} from 'chai';
 
-import RomanNumeral from '../../src/logic/RomanNumeral';
+describe('Berlin Clock', () => {
 
-describe('RomanNumeral', () => {
-
-    it('should return false', () => {
-        expect(RomanNumeral()).to.equal(false);
+    it('...', () => {
+        expect(1).to.equal(false);
     })
 
 });
