@@ -1,11 +1,15 @@
 import {expect} from 'chai';
 
-import RomanNumeral from '../../src/logic/RomanNumeral';
+/*Squares on a plane are colored variously either black or white. We arbitrarily identify one square as the “ant”. 
+The ant can travel in any of the four cardinal directions at each step it takes. The “ant” moves according to the rules below:
 
-describe('RomanNumeral', () => {
+At a white square, turn 90° right, flip the color of the square, move forward one unit
+At a black square, turn 90° left, flip the color of the square, move forward one unit*/
 
-    it('should return false', () => {
-        expect(RomanNumeral()).to.equal(false);
+describe('Langtons ant', () => {
+
+    it('what is my test', () => {
+        expect(1).to.equal(1);
     })
 
 });
