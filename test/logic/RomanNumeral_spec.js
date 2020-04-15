@@ -31,6 +31,12 @@ describe('Ant walking as defined', () => {
 });
 
 
+describe('Ant walking east then hit black sqaure and then hit white sqauire', ()=>{
+
+    
+
+});
+
 function walk(ant,direction,square) {
     if (square === "White"){
         if (direction === north){
